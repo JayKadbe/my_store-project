@@ -7,9 +7,6 @@ import {Container, Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import  SearchBox from './SearchBox'
 import { logout } from '../actions/userActions';
 
-// "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
-
-
 const Header = () => {
     const dispatch = useDispatch();
     const userLogin = useSelector(state => state.userLogin);
